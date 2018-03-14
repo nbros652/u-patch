@@ -1,6 +1,16 @@
 # u-patch: Ur patches applied to computers herewith
 Distribute bash script-based patches to multiple Ubuntu systems.
 
+Setup:
+---
+I highly recommend reading through everything here before trying to setup U-PATCH. Nevertheless, I'm starting out with the setup instructions. Whether you're setting this up in server mode or client mode, the first thing you need to do is clone all of the files in this repository using the [Clone or Download] button on the [main page](https://github.com/nbros652/u-patch).
+
+Once you've downloaded all of the files, you're left with one of two primary tasks. To set up a U-PATCH server, run the server-setup.sh script. To set up a U-PATCH client, run the client-setup.sh script. From there, just follow the prompts until either of the scripts has completed its tasks. Assuming these complete as expected, you should be up and running. You'll want to configure your sever first, as the client-setup.sh script requires you to enter the server's domain name or IP address.
+
+Built for and tested on Ubuntu 16.04.3:
+---
+These scripts have been built for and tested on Ubuntu 16.04.3. They should generally work on other versions as well, but depending on the versions of PHP and Apache2 available for those versions, small modifications may be necessary. With a little reworking, I'm sure you could get these working on other Linux distributions as well.
+
 Background:
 ---
 I manage a fair number of Ubuntu Linux Desktop systems throughout a building. These are used by more than 30 different individuals on a regular basis. Occasionally, I find that I need to make updates to these systems from time to time, and going around to each computer, or even logging in remotely to apply updates is not a good option. My solution was to create a patch systems that would allow me to write bash scripts that would perform the required changes and host these scripts on a server. Over the years, it has changed a little bit, and it's undergone one complete rewrite, and there's still room for improvement.
