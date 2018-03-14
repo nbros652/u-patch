@@ -1,6 +1,10 @@
 # u-patch: Ur Patches Applied To Computers Herewith
 Distribute bash script-based patches to multiple Ubuntu systems.
 
+Warning:
+---
+I provide no warrantee or guarantee in regards to this system and its usefulness. I am simply making publicly available a tool that I have built for myself. I cannot be held liable for your use or misuse of this system. Be sure you understand how all of the scripts operate before attempting to implement this system.
+
 Setup:
 ---
 I highly recommend reading through everything here before trying to setup U-PATCH. Nevertheless, I'm starting out with the setup instructions. Whether you're setting this up in server mode or client mode, the first thing you need to do is clone all of the files in this repository using the [Clone or Download] button on the [main page](https://github.com/nbros652/u-patch).
