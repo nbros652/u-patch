@@ -1,4 +1,4 @@
-# u-patch: Ur patches applied to computers herewith
+# u-patch: Ur Patches Applied To Computers Herewith
 Distribute bash script-based patches to multiple Ubuntu systems.
 
 Setup:
